@@ -23,7 +23,7 @@ Use `npm run build` to built the React App first.
 
 ### `npm run electron-dev`
 
-Runs the electron app in development mode.
+Runs the electron app in development mode.\
 Loads the development version of the react app at [http://localhost:3000](http://localhost:3000).
 
 Use `npm start` first to start the react app.
