@@ -1,15 +1,21 @@
 import './App.css';
 import React from "react"
-import { Typography, CssBaseline, AppBar } from '@material-ui/core';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
 
 function App() {
   return (
-    <div>
-      <CssBaseline />
-      <AppBar color="inherit">
-        <Typography variant="h6">Hello World!</Typography>
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            Hello World!
+          </Typography>
+        </Toolbar>
       </AppBar>
-    </div>
+    </Box>
   );
 }
 
