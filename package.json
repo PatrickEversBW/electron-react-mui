@@ -42,6 +42,6 @@
   },
   "main": "main.js",
   "devDependencies": {
-    "electron": "^13.1.7"
+    "electron": "^15.0.0"
   }
 }
